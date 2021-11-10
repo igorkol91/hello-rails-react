@@ -1,4 +1,4 @@
-### Hello rails project
+### Hello-rails-react project
 
 Rails app renders random greetings. The app uses react to render the UI.
 
