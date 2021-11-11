@@ -1,24 +1,55 @@
-# README
+### Hello-rails-react project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails app renders random greetings. The app uses react to render the UI.
 
-Things you may want to cover:
+### Built with
 
-* Ruby version
+Ruby on Rails
+React
+Redux
 
-* System dependencies
+### Getting Started
 
-* Configuration
+To get a local copy up and run the app, follow these simple example steps.
+Prerequisites
 
-* Database creation
+npm 
+yarn 
+Rails 
+Postgres 
 
-* Database initialization
+### Setup
 
-* How to run the test suite
+  Open your terminal and run:
+    $ git clone https://github.com/igorkol91/hello-rails-react/tree/api
+    $ bundle install
+    $ yarn install
 
-* Services (job queues, cache servers, search engines, etc.)
+### Create database and Messages table
+  Run:
+  $ rails db:create
+  $ rails db:migrate
+  $ rails db:seed
 
-* Deployment instructions
+### To start the server run:
+  Open two terminals
+  In the first one run $ ./bin/webpack-dev-server
+  In the second one run $ rails s
+  Open http:localhost:3000/ on your browser
 
-* ...
+## Authors
+
+:bust_in_silhouette: **Author1**
+
+- GitHub: [@igorkol91](https://github.com/igorkol91)
+- Twitter: [@Destro49536502]
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+## :handshake: Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to contribute
+
+## Show your support
+
+Give a ⭐️ if you like this project!
